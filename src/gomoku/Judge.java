@@ -1,3 +1,9 @@
+/**
+ * ゲームルール記述クラス
+ * @author alpacanako
+ * @version 1.0
+ */
+
 package gomoku;
 
 public class Judge {

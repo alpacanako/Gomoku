@@ -1,3 +1,9 @@
+/**
+ * 仮想プレイヤークラス
+ * @author alpacanako
+ * @version 1.0
+ */
+
 package gomoku;
 
 import java.util.Random;
@@ -17,6 +23,10 @@ public class Player {
 		this.playerNo = playerNo;
 	}
 
+	/**
+	 * 盤面上にコマを置くメソッド
+	 * @param boardData
+	 */
 	public void play(BoardData boardData) {
 		while (true) {
 			Random random = new Random();
