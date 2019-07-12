@@ -3,7 +3,7 @@
 
 ## how to play
 ```Shell
-$ javac ./bin/gomoku/Game.class
+$ java ./bin/gomoku/Game.class
 ```
 
 ## å—vƒNƒ‰ƒX‚Ìà–¾
