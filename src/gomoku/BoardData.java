@@ -88,6 +88,11 @@ public class BoardData {
 				}
 			}
 			System.out.println();
+			System.out.print("    ");
+			for (int x = 0; x < boardSize; x++) {
+				System.out.print("----");
+			}
+			System.out.println();
 		}
 		System.out.print("    ");
 		for (int x = 0; x < boardSize; x++) {

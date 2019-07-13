@@ -46,6 +46,7 @@ public class Game {
 				// CPUプレーヤークラスのインスタンス生成
 				Player cpuPlayer = new Player(2);
 
+				// 1ゲーム中の処理
 				while (true) {
 					while (true) {
 						// 盤面の出力
