@@ -1,6 +1,6 @@
 # Gomoku
 五目並べをJavaで書いてみる。
-ver1.0: ランダムにコマを置くCPUと対戦
+ver2.0: 評価関数を使って深さ1の探索を行うCPUと対戦
 
 ## how to play
 ```Shell

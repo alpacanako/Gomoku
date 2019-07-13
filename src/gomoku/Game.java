@@ -85,8 +85,16 @@ public class Game {
 						break;
 					}
 
-					// CPUのターン
-					cpuPlayer.play(boardData);
+					try {
+						// CPUのターン
+						cpuPlayer.play(boardData);
+					} catch (NoSquareException e) {
+						System.out.println("Error:s");
+					} catch (NoPlayerException e) {
+						System.out.println("Error: p");
+					} catch (FilledSquareException e) {
+						System.err.println("Error: f");
+					}
 
 					// 判定
 					winner = Judge.winner(boardData);

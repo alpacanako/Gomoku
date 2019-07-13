@@ -38,6 +38,22 @@ public class BoardData {
 	}
 
 	/**
+	 * 与えられた盤面データを別インスタンスにコピーする
+	 * コンストラクタ
+	 * @param boardData
+	 */
+	public BoardData(BoardData boardData) {
+		super();
+		boardSize = boardData.getBoardSize();
+		this.board = new int[boardSize][boardSize];
+		for (int x = 0; x < boardSize; x++) {
+			for (int y = 0; y < boardSize; y++) {
+				board[x][y] = boardData.square(x, y);
+			}
+		}
+	}
+
+	/**
 	 *  盤面の一辺の長さを返すメソッド
 	 * @return
 	 */
