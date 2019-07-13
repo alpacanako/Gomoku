@@ -4,7 +4,7 @@ ver2.0: 評価関数を使って深さ1の探索を行うCPUと対戦
 
 ## how to play
 ```Shell
-$ java ./bin/gomoku/Game.class
+java -classpath ./bin gomoku.Game
 ```
 
 ## 主要クラスの説明
