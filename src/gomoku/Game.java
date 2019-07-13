@@ -1,7 +1,6 @@
 /**
  * アプリケーションクラス
  * @author alpacanako
- * @version 1.0
  */
 
 package gomoku;

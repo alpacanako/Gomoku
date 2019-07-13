@@ -1,7 +1,6 @@
 /**
  * 盤面データクラス
  * @author alpacanako
- * @version 1.0
  */
 
 package gomoku;
